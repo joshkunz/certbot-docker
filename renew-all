@@ -29,5 +29,6 @@ end
 
 exec certbot certonly $extra_args \
     --email $ACCOUNT_EMAIL --non-interactive --agree-tos \
+    --expand \
     --config-dir /certs \
     --standalone -d "$doms"
