@@ -1,0 +1,3 @@
+# Run renew-all at 6pm on the 20th day of every month. renew-all will attempt
+# to renew all configured certs.
+0   18   20  *   *  /run/renew-all
