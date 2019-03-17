@@ -1,5 +1,7 @@
 # certbot-docker
 
+[![Build Status](https://travis-ci.org/joshkunz/certbot-docker.svg?branch=master)](https://travis-ci.org/joshkunz/certbot-docker)
+
 This repository contains a Docker container for doing automatic certificate
 renewal of LetsEncrypt certificates using the `certbot` utility.
 
